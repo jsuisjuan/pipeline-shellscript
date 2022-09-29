@@ -2,6 +2,7 @@
 # the pipeline steps, so a docker image are created and
 # the pipeline are executed, passing for all the steps
 # defined by this script
+image: maven
 
 build:
 stage: build
