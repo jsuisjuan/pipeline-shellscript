@@ -4,6 +4,7 @@ on: [push]
 
 jobs:
   build:
+    runs-on: maven:3.8.5-openjdk-17
     steps:
     - name: Rodando um script shell
       run: echo "pipeline git actions"
