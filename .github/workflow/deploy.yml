@@ -1,0 +1,9 @@
+name: CI_IBM
+
+on: [push]
+
+jobs:
+  build:
+    steps:
+    - name: Rodando um script shell
+      run: echo "pipeline git actions"
